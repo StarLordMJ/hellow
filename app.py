@@ -1,5 +1,5 @@
 import streamlit as st
-import pickle
+import pickle5 as pickle
 
 def load_model(filename):
     with open(filename, 'rb') as f:
